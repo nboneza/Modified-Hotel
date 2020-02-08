@@ -1,0 +1,144 @@
+<html>
+    <link rel="stylesheet" href="ModifiedH.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">    
+    <script src = "ModifiedH.js"></script>
+    <body>
+
+    <title>Hotel</title>
+    <img src="Haz.png" width="auto" height="13.5%">
+    <h1>Hazbin Hotel</h1>
+        <div id ="one">
+            <p>Room 1</p>
+            <input type="text" id="user" style="font-size: 20px" placeholder="Enter name">
+            <button onclick="checkIn()" id="z">Check In</button>
+            <ol id='ol1'></ol>
+            <br>
+            <button onclick="vTest()" >Close</button>
+            <button onclick="getout1()" >Clear Room</button>
+
+        </div>
+
+
+        <div id ="two">
+            <p>Room 2</p>
+            <input type="text" id="userTwo" style="font-size: 20px" placeholder="Enter name">
+            <button onclick="checkIn2()" id="zTwo">Check In</button>
+            <ol id='ol2'></ol>
+            <br>
+            <button onclick="vTest2()" >Close</button>
+            <button onclick="getout2()" >Clear Room</button>
+        </div>
+    
+
+
+        <div id ="three">
+            <p>Room 3</p>
+            <input type="text" id="userThree" style="font-size: 20px" placeholder="Enter name">
+            <button onclick="checkIn3()" id="zThree">Check In</button>
+            <ol id='ol3'></ol>
+            <br>
+            <button onclick="vTest3()" >Close</button>
+            <button onclick="getout3()" >Clear Room</button>
+        </div>
+
+
+        <div id ="four">
+            <p>Room 4</p>
+            <input type="text" id="userFour" style="font-size: 20px" placeholder="Enter name">
+            <button onclick="checkIn4()" id="zFour">Check In</button>
+            <ol id='ol4'></ol>
+            <br>
+            <button onclick="vTest4()" >Close</button>
+            <button onclick="getout4()" >Clear Room</button>
+        </div>
+
+
+        <div id ="five">
+            <p>Room 5</p>
+            <input type="text" id="userFive" style="font-size: 20px" placeholder="Enter name">
+            <button onclick="checkIn5()" id="zFive">Check In</button>
+            <ol id='ol5'></ol>
+            <br>
+            <button onclick="vTest5()" >Close</button>
+            <button onclick="getout5()" >Clear Room</button>
+        </div>
+
+
+        <div id ="six">
+            <p>Room 6</p>
+            <input type="text" id="userSix" style="font-size: 20px" placeholder="Enter name">
+            <button onclick="checkIn6()" id="zSix">Check In</button>
+            <ol id='ol6'></ol>
+            <br>
+            <button onclick="vTest6()" >Close</button>
+            <button onclick="getout6()" >Clear Room</button>
+        </div>
+
+        <button onclick="guestreport()" id="guestbutton">Guest List</button>
+       
+        <div id = "allguests">
+            <p>All Guests</p>
+            <ol id="scriptall"></ol>
+        </div>
+    
+    </body>
+
+    <script>
+        //For room 1 to click the add guest button if enter is hit
+        var input = document.getElementById("user");
+        input.addEventListener("keydown", function(event) {
+          if (event.keyCode === 13) {
+           event.preventDefault();
+           document.getElementById("z").click();
+          }
+        });
+        
+        //For room 2 
+        var input = document.getElementById("userTwo");
+        input.addEventListener("keydown", function(event2) {
+            if (event2.keyCode === 13) {
+                event2.preventDefault();
+                document.getElementById("zTwo").click();
+            }
+        });
+
+        //For room 3
+        var input = document.getElementById("userThree");
+        input.addEventListener("keydown", function(event3) {
+            if (event3.keyCode === 13) {
+                event3.preventDefault();
+                document.getElementById("zThree").click();
+            }
+        });
+
+        //For room 4
+        var input = document.getElementById("userFour");
+        input.addEventListener("keydown", function(event4) {
+            if (event4.keyCode === 13) {
+                event4.preventDefault();
+                document.getElementById("zFour").click();
+            }
+        });
+
+        //For room 5
+        var input = document.getElementById("userFive");
+        input.addEventListener("keydown", function(event5) {
+            if (event5.keyCode === 13) {
+                event5.preventDefault();
+                document.getElementById("zFive").click();
+            }
+        });
+
+        //For room 6
+        var input = document.getElementById("userSix");
+        input.addEventListener("keydown", function(event6) {
+            if (event6.keyCode === 13) {
+                event6.preventDefault();
+                document.getElementById("zSix").click();
+            }
+        });
+    </script>
+
+
+</html>
+

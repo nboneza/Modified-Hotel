@@ -1,0 +1,19 @@
+ <html>
+     <head>
+        <link rel="stylesheet" href="ModifiedH.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">    
+        <script src = "ModifiedH.js"></script>
+    </head>
+
+    <body>
+        <h1>All guests </h1>
+        <p id="reportGuestList"></p>
+    </body>
+        <script>
+            var x = localStorage.getItem('stringscript');
+            document.getElementById('reportGuestList').innerHTML = x;
+        </script>
+
+
+
+ </html>

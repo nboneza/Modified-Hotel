@@ -1,0 +1,175 @@
+h1 {
+    font-size:80px;
+    font-family: 'Bitter', serif;
+    color: white;
+    text-align:center;
+    top:0px;
+    margin:5px;
+    position: absolute;
+    width:100%;
+    text-shadow: 0 0 20px #0df9f7;
+}
+
+
+
+body {
+    background: radial-gradient(#333, #000);
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+
+}
+
+p {
+    text-align:center;
+}
+
+#one {
+    overflow: scroll;
+    width: 320px;
+    height:350px;
+    left:7%;
+    top:14%;
+    position:absolute;
+    background-color: #C3073F;
+    opacity: 75%;
+    color: white;
+    border-radius: 8px;
+    padding:10px;
+    box-shadow: 0 2px 6px 0 #808080, 0 4px 15px 0 #808080;
+}
+
+#two {
+    overflow: scroll;
+    width: 320px;
+    height:350px;
+    position: absolute;
+    left:29.2%;
+    top:14%;
+    background-color: #5CDB95;
+    opacity: 75%;
+    color: white;
+    border-radius: 8px;
+    padding:10px;
+    box-shadow: 0 2px 6px 0 #808080, 0 4px 15px 0 #808080;
+
+}
+
+#three {
+    overflow: scroll;
+    width: 320px;
+    height:350px;
+    position: absolute;
+    left:51.5%;
+    top:14%;
+    background-color: #C3073F;
+    opacity: 75%;
+    color: white;
+    border-radius: 8px;
+    padding:10px;
+    box-shadow: 0 2px 6px 0 #808080, 0 4px 15px 0 #808080;
+
+}
+
+#four {
+    overflow: scroll;
+    width: 320px;
+    height:350px;
+    left:7%;
+    top:57%;
+    background-color: #C3073F;
+    opacity: 75%;
+    position:absolute;
+    color: white;
+    border-radius: 8px;
+    padding:10px;
+    box-shadow: 0 2px 6px 0 #808080, 0 4px 15px 0 #808080;
+
+}
+
+#five {
+    overflow: scroll;
+    width: 320px;
+    height:350px;
+    position: absolute;
+    left:29.2%;
+    top:57%;
+    background-color: #5CDB95;
+    opacity: 75%;
+    color: white;
+    border-radius: 8px;
+    padding:10px;
+    box-shadow: 0 2px 6px 0 #808080, 0 4px 15px 0 #808080;
+
+}
+
+#six {
+    overflow: scroll;
+    width: 320px;
+    height: 350px;
+    position: absolute;
+    left:51.5%;
+    top:57%;
+    background-color: #C3073F;
+    opacity: 75%;
+    color: white;
+    border-radius: 8px;
+    padding:10px;
+    box-shadow: 0 2px 6px 0 #808080, 0 4px 15px 0 #808080;
+
+}
+
+button {
+    font-family:'Indie Flower', cursive;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 15px;
+    color:white;
+  }
+
+button:hover {
+    color:white;
+    border-radius: 8px;
+    border: 2px solid white;
+    background-color:black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+input {
+    background-color:white;
+    border-radius: 8px;
+    width: 230px;
+
+}
+
+#allguests {
+    overflow: scroll;
+    width: 320px;
+    height:757px;
+    left:74%;
+    top:14%;
+    position:absolute;
+    background-color: #5CDB95;
+    opacity: 75%;
+    color: white;
+    border-radius: 8px;
+    padding:10px;
+    box-shadow: 0 2px 6px 0 #808080, 0 4px 15px 0 #808080;
+
+}
+
+#reportGuestList {
+    font-size:40px;
+    font-family: 'Bitter', serif;
+    color: white;
+    text-align:center;
+    top:100px;
+    position: absolute;
+    left: 40px;
+}
+
+#guestbutton {
+    left: 75%;
+    top: 5%;
+    position: absolute;
+  }
